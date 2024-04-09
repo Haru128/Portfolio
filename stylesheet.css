@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: "Consolas";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 300px 0 100px 0;
+  background-color:#272F3C;
+  background-size: cover;
+  color: #d5cbb5;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+  color:#d5cbb5;
+}
+
+.signup {
+  background-color: #be7d23;
+}
+
+.signup p{
+  color:#272F3C;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: #d5cbb5;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #091426;
+  opacity:0.8;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width:100px;
+  position:relative;
+  bottom:8px;
+  right:100px;
+}
+
+.header-left {
+  float: left;
+}
+
+
+.header-right:hover {
+  background-color: #d5cbb5;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: d5cbb5;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #272F3C;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #000000;
+}
+
+.heading h2 {
+  font-weight: normal;
+  color:#d5cbb5;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: #272F3C;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #d5cbb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #d5cbb5;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #272F3C;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #d5cbb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: #272F3C;
+}
